@@ -23,7 +23,6 @@ public class Planet
     public int getRadius() {
         return radius;
     }
-
     public double getMass() {
         return mass;
     }
@@ -32,11 +31,9 @@ public class Planet
     public void setName(String name) {
         this.name = name;
     }
-
     public void setRadius(int radius) {
         this.radius = radius;
     }
-
     public void setMass(double mass) {
         this.mass = mass;
     }

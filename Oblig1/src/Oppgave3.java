@@ -1,13 +1,21 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Oppgave3_1
+public class Oppgave3
 {
-    private final Scanner reader = new Scanner(System.in);
-    private final ArrayList<Planet> planets = new ArrayList<>();
-    private boolean isDoneAdding = false;
+    private final Scanner reader;
+    private final ArrayList<Planet> planets;
+    private boolean isDoneAdding;
 
-    public void listPlanets() {
+    public Oppgave3()
+    {
+        reader = new Scanner(System.in);
+        planets = new ArrayList<>();
+        isDoneAdding = false;
+    }
+
+    public void listPlanets()
+    {
         System.out.println("===== Planeter =====");
         if (planets.size() == 0) { System.out.println("Ingen planeter registrert"); }
         for (int i = 0; i < planets.size(); i++) {
@@ -19,7 +27,7 @@ public class Oppgave3_1
     public void printPlanet(int index)
     {
         if (index > planets.size() - 1 || index < 0) {
-            System.out.println("[WARNING] Ingen planet med indexen " + index);
+            System.out.println("[WARNING] Ingen planet med indeksen " + index);
             return;
         }
 
@@ -29,7 +37,7 @@ public class Oppgave3_1
     public void removePlanet(int index)
     {
         if (index > planets.size() - 1 || index < 0) {
-            System.out.println("[WARNING] Ingen planet med indexen " + index);
+            System.out.println("[WARNING] Ingen planet med indeksen " + index);
             return;
         }
 
@@ -39,7 +47,7 @@ public class Oppgave3_1
 
     public static void main(String[] args)
     {
-        Oppgave3_1 oppg = new Oppgave3_1();
+        Oppgave3 oppg = new Oppgave3();
 
         // NOTE: Have not added checking of correct input type
         while (!oppg.isDoneAdding)
@@ -77,7 +85,7 @@ public class Oppgave3_1
                     break;
                 case 3:
                 {
-                    System.out.print("Oppgi index for planeten (-1 for å avbryte): ");
+                    System.out.print("Oppgi indeks for planeten (-1 for å avbryte): ");
                     int printIndex = oppg.reader.nextInt();
                     if (printIndex < 0) { continue; }
 
@@ -85,7 +93,7 @@ public class Oppgave3_1
                 } break;
                 case 4: // Remove a planet
                 {
-                    System.out.print("Oppgi index på planeten å fjerne (-1 for å avbryte): ");
+                    System.out.print("Oppgi indeks på planeten å fjerne (-1 for å avbryte): ");
                     int removeIndex = oppg.reader.nextInt();
                     if (removeIndex < 0) { continue; }
 
