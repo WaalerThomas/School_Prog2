@@ -2,16 +2,22 @@ package no.tomwaa.Oblig2.models;
 
 public class Planet
 {
-    // Protected so that Star class has access to them
-    protected String name;
-    protected double radius;
-    protected double mass;
+    private String name;
+    private double radius;
+    private double mass;
 
     public Planet(String name, double radius, double mass)
     {
         this.name = name;
         this.radius = radius;
         this.mass = mass;
+    }
+
+    public double getSurfaceGravity()
+    {
+        double gravConstant = 6.67408E-11;
+        double radiusInMeters = getRadiusInKM() * 1000;
+        return (gravConstant * getMassInKG()) / (radiusInMeters * radiusInMeters);
     }
 
     @Override
@@ -32,6 +38,9 @@ public class Planet
     public double getRadiusInKM() {
         return radius * 71492;
     }
+    public double getRadiusEarth() {
+        return getRadiusInKM() / 6371;
+    }
     public void setRadius(double radius) {
         this.radius = radius;
     }
@@ -41,6 +50,9 @@ public class Planet
     }
     public double getMassInKG() {
         return mass * 1.898E27;
+    }
+    public double getMassEarth() {
+        return getMassInKG() / 5.972E24;
     }
     public void setMass(double mass) {
         this.mass = mass;
