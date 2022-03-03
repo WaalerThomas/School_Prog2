@@ -36,7 +36,7 @@ public class Planet
         return radius;
     }
     public double getRadiusInKM() {
-        return radius * 71492;
+        return radius * 71_492;
     }
     public double getRadiusEarth() {
         return getRadiusInKM() / 6371;
