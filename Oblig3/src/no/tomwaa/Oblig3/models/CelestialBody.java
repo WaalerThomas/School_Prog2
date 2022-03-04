@@ -5,9 +5,16 @@ public abstract class CelestialBody
     public static final int RELATION_REARTH_KM = 6_371;
     public static final double RELATION_MEARTH_KG = 5.972E24;
 
-    protected String name;
-    protected double radius;
-    protected double mass;
+    private String name;
+    private double radius;
+    private double mass;
+
+    protected CelestialBody(String name, double radius, double mass)
+    {
+        this.name = name;
+        this.radius = radius;
+        this.mass = mass;
+    }
 
     public abstract double getRadiusInKM();
     public abstract double getMassInKG();
