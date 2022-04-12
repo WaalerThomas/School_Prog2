@@ -2,7 +2,7 @@ package tomwaa.oblig5.models;
 
 import java.util.UUID;
 
-public abstract class Artist
+public abstract class Artist implements Comparable<Artist>
 {
     private UUID id;
     private String name;
@@ -16,7 +16,12 @@ public abstract class Artist
 
     @Override
     public String toString() {
-        return name + ", " + id;
+        return name;
+    }
+
+    @Override
+    public int compareTo(Artist o) {
+        return this.name.compareTo(o.getName());
     }
 
     public UUID getId() {

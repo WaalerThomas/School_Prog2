@@ -1,16 +1,41 @@
 [ {
-  "id" : "94b23efd-01a6-48e3-bf95-fddd118af4dd",
-  "name" : "Thomas",
+  "id" : "5e8c5e35-02d0-4347-89e7-305f6d375181",
+  "name" : "Bad Omens",
+  "yearFounded" : 2013,
+  "type" : "Group"
+}, {
+  "id" : "0f42efdd-d8f6-4b34-a702-5f358d40375b",
+  "name" : "Jon Bellion",
   "gender" : "MALE",
   "type" : "Person"
 }, {
-  "id" : "f0937b2f-5ef9-48e5-8a9d-d0f305b214a3",
-  "name" : "Cats",
-  "yearFounded" : 1970,
+  "id" : "9eb14b47-89e5-421d-a6e3-d8f76794eeb4",
+  "name" : "Ansis",
+  "gender" : "MALE",
+  "type" : "Person"
+}, {
+  "id" : "f542e6f2-ab53-49a9-bbfc-a9a602f83d8b",
+  "name" : "Asking Alexandria",
+  "yearFounded" : 2008,
   "type" : "Group"
 }, {
-  "id" : "78dd48de-dd1f-4178-a3fc-85774e4b4edf",
-  "name" : "Jon Bellion",
-  "gender" : "NON_BINARY",
+  "id" : "b6aa48c1-fb1b-4654-b384-b1ec16cfd68e",
+  "name" : "Crown The Empire",
+  "yearFounded" : 2010,
+  "type" : "Group"
+}, {
+  "id" : "d3e57a45-8a77-4912-92f3-1ca5f0f9d80a",
+  "name" : "Andie Case",
+  "gender" : "FEMALE",
   "type" : "Person"
+}, {
+  "id" : "d5173199-53f4-469b-b170-f85c3caa9052",
+  "name" : "BrainStorm",
+  "yearFounded" : 1989,
+  "type" : "Group"
+}, {
+  "id" : "86891c79-7339-41b2-b7da-d33b3ecbf298",
+  "name" : "Musiqq",
+  "yearFounded" : 2009,
+  "type" : "Group"
 } ]

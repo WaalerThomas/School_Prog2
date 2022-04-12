@@ -2,13 +2,14 @@ package tomwaa.oblig5.models;
 
 import java.util.ArrayList;
 
-public class Album extends SongContainer
+public class Album extends SongContainer implements Comparable<Album>
 {
     private int releaseYear;
     private Artist artist;      // Albums usually only have one artist
     private float rating;
     // TODO: Add genre
 
+    public Album() {}
     public Album(String name, ArrayList<Song> songList, Artist artist, int releaseYear, float rating)
     {
         super(name, songList);
@@ -18,6 +19,11 @@ public class Album extends SongContainer
     }
     public Album(String name) {
         this(name, new ArrayList<>(), null, 0, 0.0f);
+    }
+
+    @Override
+    public int compareTo(Album o) {
+        return this.getName().compareTo(o.getName());
     }
 
     public int getReleaseYear() {
@@ -39,12 +45,5 @@ public class Album extends SongContainer
     }
     public void setRating(float rating) {
         this.rating = rating;
-    }
-
-    @Override
-    public void addSong(Song song) {
-        // When adding a song to an album, the song inherits the albums genre
-        // TODO: Implement addSong
-        super.addSong(song);
     }
 }

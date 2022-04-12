@@ -5,10 +5,11 @@ import java.util.UUID;
 
 public abstract class SongContainer
 {
-    private final UUID id;
+    private UUID id;
     private String name;
-    private final ArrayList<Song> songList;
+    private ArrayList<Song> songList;
 
+    public SongContainer() {}
     public SongContainer(String name, ArrayList<Song> songList)
     {
         this.id = UUID.randomUUID();
@@ -30,17 +31,17 @@ public abstract class SongContainer
         this.name = name;
     }
 
-    public int getSongCount() {
+    public int totalSongCount() {
         return songList.size();
     }
-    public int getDuration() {
+    public int totalDuration() {
         // Returns the total duration in seconds
-        int duration = 0;
+        int dur = 0;
         for (Song s : songList) {
-            duration += s.getDuration();
+            dur += s.getDuration();
         }
 
-        return duration;
+        return dur;
     }
 
     public Song getSong(UUID id) {
@@ -51,6 +52,10 @@ public abstract class SongContainer
         }
 
         return null;
+    }
+    public ArrayList<Song> getSongList() {
+        // So that I can list the songs in the GUI
+        return songList;
     }
     public void addSong(Song song) {
         songList.add(song);

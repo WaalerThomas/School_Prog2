@@ -1,11 +1,6 @@
 package tomwaa.oblig5.forms;
 
-import com.fasterxml.jackson.core.JsonGenerator;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ArrayNode;
-import com.fasterxml.jackson.databind.node.ObjectNode;
+import tomwaa.oblig5.FileHandler;
 import tomwaa.oblig5.enums.GenderType;
 import tomwaa.oblig5.models.Artist;
 import tomwaa.oblig5.models.Group;
@@ -13,24 +8,11 @@ import tomwaa.oblig5.models.Person;
 
 import javax.swing.*;
 import java.awt.event.*;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.time.LocalDate;
-import java.time.Year;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
-import java.time.format.ResolverStyle;
-import java.util.Calendar;
-import java.util.GregorianCalendar;
 
-// TODO: Clamp formed spinner
 
-public class AddArtistDialog extends JDialog
+
+public class AddArtistDialog extends CustomDialog<Artist>
 {
-    private Artist result;
-
     private JPanel contentPane;
     private JButton buttonOK;
     private JButton buttonCancel;
@@ -86,12 +68,6 @@ public class AddArtistDialog extends JDialog
         }, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
     }
 
-    public Artist showDialog()
-    {
-        this.setVisible(true);
-        return result;
-    }
-
     private void setGroupElementsVisible(boolean flag)
     {
         formedLbl.setVisible(flag);
@@ -128,25 +104,7 @@ public class AddArtistDialog extends JDialog
             result = new Group(nameTxtField.getText(), year);
         }
 
-        // Save the artist to file
-        File jsonFile = new File("datafiles\\artists.json");
-        ObjectMapper objectMapper = new ObjectMapper();
-
-        try {
-            // Check if file exists already
-            ArrayNode arrayNode;
-            if (jsonFile.exists())  { arrayNode = (ArrayNode) objectMapper.readTree(jsonFile);
-            } else                  { arrayNode = objectMapper.createArrayNode(); }
-
-            ObjectNode artistNode = objectMapper.valueToTree(result);
-            artistNode.put("type", (personRadioBtn.isSelected()) ? "Person" : "Group"); // Add artist type
-            arrayNode.add(artistNode);
-
-            objectMapper.writerWithDefaultPrettyPrinter().writeValue(jsonFile, arrayNode);
-        } catch (IOException e) {
-            writeStatus(e.getMessage());
-            return;
-        }
+        FileHandler.saveArtistsToFile(result);
         dispose();
     }
 

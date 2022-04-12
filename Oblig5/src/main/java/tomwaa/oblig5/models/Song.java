@@ -1,31 +1,31 @@
 package tomwaa.oblig5.models;
 
 import java.util.ArrayList;
+import java.util.Objects;
 import java.util.UUID;
 
 public class Song
 {
-    private final UUID id;
+    private  UUID id;
     private String name;
     private int duration;   // In seconds
-    private final ArrayList<Artist> artistList; // Can be more than just one artist
-    private Album album;
+    private ArrayList<Artist> artistList; // Can be more than just one artist
     private int releaseYear;
     private float rating;
     // TODO: Add genre
 
-    public Song(String name, int duration, ArrayList<Artist> artistList, Album album, int releaseYear, float rating)
+    public Song() {}
+    public Song(String name, int duration, ArrayList<Artist> artistList, int releaseYear, float rating)
     {
         id = UUID.randomUUID();
         this.name = name;
         this.duration = duration;
         this.artistList = artistList;
-        this.album = album;
         this.releaseYear = releaseYear;
         this.rating = rating;
     }
     public Song(String name) {
-        this(name, 0, new ArrayList<>(), null, 0, 0.0f);
+        this(name, 0, new ArrayList<>(), 0, 0.0f);
     }
 
     public UUID getId() {
@@ -47,7 +47,10 @@ public class Song
     }
 
     public Artist getArtist(UUID id) {
-        // TODO: Implement getting artist
+        for (Artist a : artistList) {
+            // Why not just comparing the UUID objects instead of turning them both to strings?
+            if (Objects.equals(id.toString(), a.getId().toString())) { return a; }
+        }
         return null;
     }
     public void addArtist(Artist artist) {
@@ -55,13 +58,6 @@ public class Song
     }
     public void removeArtist(UUID id) {
         artistList.removeIf(s -> s.getId().equals(id));
-    }
-
-    public Album getAlbum() {
-        return album;
-    }
-    public void setAlbum(Album album) {
-        // TODO: Implement setting the album
     }
 
     public int getReleaseYear() {

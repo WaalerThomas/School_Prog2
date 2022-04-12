@@ -1,0 +1,166 @@
+[ {
+  "id" : "ad20057e-3db8-4e8b-8f05-14909666d123",
+  "name" : "Finding God Before God Finds Me (Deluxe)",
+  "songList" : [ {
+    "id" : "ffeb8fd7-87a8-43ff-8e36-41af3731f4f3",
+    "name" : "Kingdom of Cards",
+    "duration" : 422,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "f38d7121-a1e1-4ddf-997e-3e0362336ec6",
+    "name" : "Running in Circles",
+    "duration" : 356,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "7e6d50b3-7a75-4ed3-b7c9-2aa1f74bedc6",
+    "name" : "Careful What You Wish For",
+    "duration" : 433,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "7ad3af20-58a5-4c66-84b3-3dbe866135d2",
+    "name" : "The Hell I Overcame",
+    "duration" : 334,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "7df58629-bacf-4696-9793-90c740026e92",
+    "name" : "Dethrone",
+    "duration" : 329,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "f94b9a8d-7c92-4d36-9201-20d4b9af295c",
+    "name" : "Blood",
+    "duration" : 351,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "6a9e4043-d460-46cd-8d22-4bbe0343f78e",
+    "name" : "Mercy",
+    "duration" : 517,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "bb7bce26-03ed-4642-aab2-cd1c07f740da",
+    "name" : "Said & Done",
+    "duration" : 325,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "93b897d4-0870-4eee-93d9-f9828cb5ee41",
+    "name" : "Burning Out",
+    "duration" : 10,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "cfba1668-f692-40d1-9a98-195a582fdc2c",
+    "name" : "If I'm There",
+    "duration" : 10,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "d6aa2885-14d9-4d15-86e4-3630dcc17474",
+    "name" : "Never Know",
+    "duration" : 10,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "1e274f5f-d52c-4cd9-b2bb-fb1bf0bad0a0",
+    "name" : "Limits",
+    "duration" : 10,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "9baf2fa2-7ac7-4e3f-b5c1-8813c234aa36",
+    "name" : "Come Undone",
+    "duration" : 10,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  } ],
+  "releaseYear" : 2020,
+  "rating" : 4.0,
+  "artist_id" : "5e8c5e35-02d0-4347-89e7-305f6d375181"
+}, {
+  "id" : "27a6bcc1-0c2a-4f0d-81e9-1feaece9301e",
+  "name" : "Glory Sound Prep",
+  "songList" : [ {
+    "id" : "7ead5e37-6dd4-4cca-bdd4-9123e32e8041",
+    "name" : "Conversation with my Wife",
+    "duration" : 320,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "543dc2c2-8802-4ab8-89f0-6b7ff1590fc4",
+    "name" : "JT",
+    "duration" : 429,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "0321b0e2-a2da-40ab-99be-8eeb37b8ec7c",
+    "name" : "Let's Begin (feat. Roc Marciano, RZA, B.Keyz & Travis Mendes)",
+    "duration" : 541,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "f08764aa-27c0-4a1a-b91c-47d466f8da64",
+    "name" : "Stupid Deep",
+    "duration" : 258,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "3c756c87-4c58-437c-bd63-5380164feafd",
+    "name" : "The Internet",
+    "duration" : 310,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "a5f5e162-9bf3-4205-ad47-58b889b207d1",
+    "name" : "Blu",
+    "duration" : 303,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "a50a759b-bfd1-467f-9acc-553245c62bed",
+    "name" : "Adult Swim (feat. Tuamie)",
+    "duration" : 514,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "b6cbeed2-e06c-4513-91cc-beef139c5ac0",
+    "name" : "Couples Retreat",
+    "duration" : 329,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "d3fba397-9f0a-436a-a0e8-6e82072e3fcf",
+    "name" : "Cautionary Tales",
+    "duration" : 347,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  }, {
+    "id" : "6cb06036-4835-4786-beb4-316c15034e4e",
+    "name" : "Mah's Joint (feat. Quincy Jones)",
+    "duration" : 802,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  } ],
+  "releaseYear" : 2018,
+  "rating" : 0.0,
+  "artist_id" : "0f42efdd-d8f6-4b34-a702-5f358d40375b"
+}, {
+  "id" : "96649f24-ac7b-400b-ad7d-5ad9fdab7590",
+  "name" : "Garīgais arī - Single",
+  "songList" : [ {
+    "id" : "fe26bfb8-d701-40f4-ab07-f0de030bdde6",
+    "name" : "Garīgais arī",
+    "duration" : 348,
+    "releaseYear" : 0,
+    "rating" : 0.0
+  } ],
+  "releaseYear" : 2020,
+  "rating" : 0.0,
+  "artist_id" : "86891c79-7339-41b2-b7da-d33b3ecbf298"
+} ]

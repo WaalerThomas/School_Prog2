@@ -5,58 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e52e25b2-a2ef-48d8-8c1b-c491671f0829" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datafiles/artists.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/enums/GenderType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/forms/AddArtistDialog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/forms/AddArtistDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/forms/MainWindow.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/forms/MainWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/models/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/models/Artist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/models/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/models/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/models/Playlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/models/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/models/SongContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/renderers/ArtistRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig5.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5/tomwaa/oblig5/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5/tomwaa/oblig5/forms/MainWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tomwaa/oblig5/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tomwaa/oblig5/forms/MainWindow.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tomwaa/oblig5/forms/MainWindow.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/datafiles/albums.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/FileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/forms/AddAlbumDialog.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/forms/AddAlbumDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/forms/AddSongDialog.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/forms/AddSongDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/forms/CustomDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/renderers/AlbumRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/renderers/SongRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.~lock.Oblig5_ThomasWaaler.odt#" beforeDir="false" afterPath="$PROJECT_DIR$/../.~lock.Oblig5_ThomasWaaler.odt#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datafiles/artists.json" beforeDir="false" afterPath="$PROJECT_DIR$/datafiles/artists.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/forms/AddArtistDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/forms/AddArtistDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/forms/AddArtistDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/forms/AddArtistDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/forms/AddArtistDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/forms/AddArtistDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/forms/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/forms/MainWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/models/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/models/Album.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/models/Artist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/models/Artist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/models/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/models/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/models/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/models/Song.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/models/SongContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/models/SongContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/renderers/ArtistRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/tomwaa/oblig5/renderers/ArtistRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/forms/AddArtistDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/forms/AddArtistDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/forms/MainWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/forms/MainWindow.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/forms/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/forms/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/models/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/models/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/models/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/models/Artist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/models/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/models/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/models/SongContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/models/SongContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/renderers/ArtistRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tomwaa/oblig5/renderers/ArtistRenderer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
